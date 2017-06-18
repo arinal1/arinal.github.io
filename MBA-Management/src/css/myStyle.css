@@ -1,0 +1,94 @@
+.a-wrapper{
+	height: 350px;
+}
+.about-wrapper{
+	height: 350px;
+	background-color: #bdcee2;
+}
+.clients-wrapper{
+	height: 350px;
+	background-color: #3591d0;
+}
+.contact-wrapper{
+	height: 700px;
+	background-color: #bdcee2;
+}
+.content {
+	min-height: 700px;
+}
+.header{
+	position: fixed;
+	z-index: 10;
+}
+.home{
+	background-color: rgba(43, 43, 43, 0.3);
+	vertical-align: middle;
+	display: table-cell;
+}
+.home-wrapper{
+	height: 585px;
+	width: 100%;
+	background-image: url('http://www.wbglobalgroup.com/wp-content/uploads/2016/09/Consulting.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+}
+.navbar-MBA{
+	padding: 20px 0;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+.navbar-MBA .navbar-brand {
+	color: #F0F0F0;
+	font-size: 18px;
+}
+.navbar-MBA .navbar-brand:hover,
+.navbar-MBA .navbar-brand:focus {
+	color: #FFF;
+	background-color: transparent;
+	outline: none;
+}
+.navbar-MBA .navbar-nav > li > a {
+	color: #F0F0F0;
+	font-size: 16px;
+}
+.navbar-MBA .navbar-nav > li > a:hover,
+.navbar-MBA .navbar-nav > li > a:focus {
+	color: #FFF;
+	background-color: transparent;
+	outline: none;
+}
+.navbar-MBA .navbar-nav > li > a::after {
+	content: '';
+	display: block;
+	height: 1px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.navbar-MBA .navbar-nav > li > a:hover:after {
+	width: 100%;
+	background: #FFF;
+}
+.navbar-MBA .navbar-nav > .active > a:after,
+.navbar-MBA .navbar-nav > .active > a:hover:after,
+.navbar-MBA .navbar-nav > .active > a:focus:after {
+	width: 100%;
+	background: #FFF;
+}
+.services-wrapper{
+	height: 350px;
+}
+.scrolled-nav{
+	padding: 0;
+	background-color: #27464e;
+}
+.slogan{
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 6px #000;
+}
+.slogan-wrapper{
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+}
